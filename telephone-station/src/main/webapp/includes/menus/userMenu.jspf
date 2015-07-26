@@ -1,0 +1,9 @@
+<h2>
+	<fmt:message key="menu" />
+</h2>
+<br>
+<form action="BaseController" method="post">
+	<fmt:message key="sign_out" var="sign_out" />
+	<input type="hidden" name="page" value="sign_out" /> <input
+		type="submit" value="${sign_out}" name="submit">
+</form>

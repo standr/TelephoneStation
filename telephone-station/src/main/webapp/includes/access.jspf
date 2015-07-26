@@ -1,0 +1,2 @@
+<c:if test="${user.id == null}"><c:redirect url="index.jsp"/></c:if>
+<c:if test="${user.role != 'ADMIN'}"><c:redirect url="index.jsp"/></c:if>
